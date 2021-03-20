@@ -4,7 +4,7 @@ var collection = {
         artist: "Bon Jovi",
         tracks: [
             "Let It Rock",
-            "You Give a Bad Name"
+            "You Give Love a Bad Name"
         ]
 
     },
