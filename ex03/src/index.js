@@ -1,5 +1,5 @@
 // Only change code below this line
-function rangeOfNumber(startN, endN) {
+function rangeOfNumbers(startN, endN) {
     if(startN > endN) {
         return "The starting number will always be less then or equal to the ending number"
     }
@@ -8,13 +8,13 @@ function rangeOfNumber(startN, endN) {
         return [endN];
     }
     
-    var array = rangeOfNumber(startN+1, endN);
+    var array = rangeOfNumbers(startN+1, endN);
     array.unshift(startN);
     return array;
     }
     // Only change code above this line
-    console.log(rangeOfNumber(1, 7));
-    console.log(rangeOfNumber(3, 10));
-    console.log(rangeOfNumber(5, 5));
-    console.log(rangeOfNumber(7, 5));
-    module.exports = rangeOfNumber;
+    console.log(rangeOfNumbers(1, 7));
+    console.log(rangeOfNumbers(3, 10));
+    console.log(rangeOfNumbers(5, 5));
+    console.log(rangeOfNumbers(7, 5));
+    module.exports = rangeOfNumbers;
